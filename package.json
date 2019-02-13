@@ -1,0 +1,28 @@
+{
+  "name": "accepts-https",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm test",
+    "test": "./node_modules/.bin/lab test",
+    "coverage": "./node_modules/.bin/lab test --coverage --reporter html > test/report.html; echo Coverage report located at test/report.html"
+  },
+  "keywords": [
+    "accepts",
+    "https"
+  ],
+  "author": "Simon Lévesque <simon@tractr.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tractr/accepts-https.git"
+  },
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "lab": "^18.0.2"
+  }
+}
